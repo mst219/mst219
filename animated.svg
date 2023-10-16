@@ -2,21 +2,52 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
+				#body{
+					background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+					background-size:400% 400%;
+					animation:gradient 15s ease infinite;
+					padding-bottom:54px;
+				}
 				#pro>div{
-					float:left;
+					display:inline-block;
 					background:rgb(219,219,219);
 					padding:6px 9px;
 					margin:3px;
 					border-radius:1236px;
 				}
+
+				#hi{
+					transform-origin:bottom center;
+					animation:hi 2.7s infinite;
+					display:inline-block;
+				}
+				@keyframes hi{
+					0%{transform:rotate(0.0deg)}
+					3%{transform:rotate(15deg)}
+					9%{transform:rotate(0deg)}
+					12%{transform:rotate(-15deg)}
+					15%{transform:rotate(0.0deg)}
+					18%{transform:rotate(15deg)}
+					21%{transform:rotate(0deg)}
+					24%{transform:rotate(-15deg)}
+					27%{transform:rotate(0.0deg)}
+					100%{transform:rotate(0.0deg)}
+				}
+				@keyframes gradient {
+					0%{background-position:0% 50%;}
+					50%{background-position:100% 50%;}
+					100%{background-position:0% 50%;}
+				}
 			</style>
-			<div class="container">
-				<h1>Hi,I'm Mojtaba 👋</h1>
-				<div id="pro">
-					<div>php</div>
-					<div>javascript</div>
-					<div>html</div>
-					<div>css</div>
+			<div id="body">
+				<div class="container">
+					<h1>Hi,I'm Mojtaba <div id="hi">👋</div></h1><hr/>
+					<div id="pro">
+						<div>php</div>
+						<div>javascript</div>
+						<div>html</div>
+						<div>css</div>
+					</div>
 				</div>
 			</div>
 		</div>
