@@ -2,15 +2,15 @@
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				#pro>div{float:left;background:rgb(219,219,219);padding:9px;}
+				.pro{float:left;background:rgb(219,219,219);padding:9px;}
 			</style>
 			<div class="container">
 				<h1>Hi,I'm Mojtaba<div class="hi">👋</div></h1>
-				<div id="pro">
-					<div>php</div>
-					<div>javascript</div>
-					<div>html</div>
-					<div>css</div>
+				<div>
+					<div class="pro">php</div>
+					<div class="pro">javascript</div>
+					<div class="pro">html</div>
+					<div class="pro">css</div>
 				</div>
 			</div>
 		</div>
