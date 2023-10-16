@@ -1,1 +1,1 @@
-<img src="index.svg?1" style="width:100%;" alt="mst219">
+<img src="index1.svg" style="width:100%;" alt="mst219">
