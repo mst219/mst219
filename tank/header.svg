@@ -61,7 +61,7 @@
 					#getRndInteger(min,max){return Math.floor(Math.random()*(max-min))+min;}
 				});
 			</script>
-			<header>
+			<header id="base">
 				<div class="base">
 					<h1>Hi,I'm Mojtaba <div id="hi">👋</div></h1>
 					<h2>Who is Mojtaba anyway !?</h2>
