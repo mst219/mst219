@@ -11,4 +11,5 @@
 <a href="#"><img src="https://mst219.github.io/profile/tank/sm/linkedin.svg" style="width:6%;" alt="linkedin"/></a>
 <a href="#"><img src="https://mst219.github.io/profile/tank/sm/instagram.svg" style="width:6%;" alt="instagram"/></a>
 
-<a hraf="https://youtu.be/QKoHXwOxWuE"><img src="view.png"/></a>
+<a hraf="https://youtu.be/QKoHXwOxWuE">Preview</a>
+<img src="view.png"/>
