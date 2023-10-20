@@ -13,4 +13,4 @@
 
 Youtube(preview): https://youtu.be/QKoHXwOxWuE
 
-<img src="view.png"/>
+<img src="view.gif"/>
